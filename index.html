@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitung Luas Lingkaran</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Hitung Luas Lingkaran</h1>
+        
+        <div class="circle" id="circle">
+            <img src="rumus.png" alt="Foto Lingkaran" id="circleImage">
+        </div>
+        
+        <!-- Input Jari-jari -->
+        <label for="radius">Masukkan Jari-jari Lingkaran (cm):</label>
+        <input type="number" id="radius" placeholder="Contoh: 5" required>
+        
+        <!-- Tombol Hitung -->
+        <button id="calculateBtn">Hitung Luas</button>
+        
+        <!-- Hasil Perhitungan -->
+        <div id="result"></div>
+        
+        <!-- Rumus Luas Lingkaran -->
+        <div id="formula">
+            <h3>Rumus:</h3>
+            <p><span>Luas = π × r²</span></p>
+        </div>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html>
